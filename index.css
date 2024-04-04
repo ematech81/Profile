@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif ;
+}
+body {
+  background-color: #d9eff7;
+}
+
+.flexBetween{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCentered {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+section {
+  background-color: #d9eff7;
+  height: 100vh;
+  width: 100%;
+}
+section .main-container {
+  width: 100%;
+  background-color: #fff;
+  margin: auto;
+  box-shadow:2px 2px 8px 4px rgba(0,0,0,0.1);
+  height: 100vh;
+  margin-top: 20px;
+  
+}
+ section .profile{
+  padding: 6px;
+  height: 110px;
+  width: 100%;
+  position: relative;
+  }
+   .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.profile .mission{
+  flex-direction: column;
+  flex: 1;
+  margin-left: 20px;
+  margin-bottom: 15px;
+ 
+}
+
+.mission h2{
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #4741a6; 
+  margin-bottom: 7px;
+  font-weight: bold;
+  
+}
+
+.mission p {
+font-size: 15px;
+text-transform: capitalize;
+font-weight: 500;
+
+}
+
+.profile-name {
+  background-color: #4741a6;
+  width: 90%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  height: 50px;
+  margin-top: -25px;
+  position: absolute;
+}
+.profile-name h1{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.profile-name i  {
+ color: #ccc;
+ margin-top: 4px;
+ padding-bottom: 4px;
+ font-size: 14px;
+ font-weight: bold;
+ 
+}
+
+.skills {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #4741a6 ;
+  margin-top: 50px;
+  padding: 0px 20px;
+
+}
+.language {
+  font-weight: bold;
+  width: 30%;
+  font-size: 15px;
+ display: flex;
+ 
+}
+.skills h3 {
+  font-weight: bold;
+}
+.skills-info{
+  margin: 5px;
+  padding-left: 5px;
+  color: #4741a6;
+  font-weight: 500;
+  padding: 10px;
+
+}
+.container {
+  margin: 5px 0px;
+  border-bottom: 2px solid #ccc;
+  padding: 3px 1px;
+}
+.skill-list {
+  margin-right: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  margin-left: 15px;
+}
+.skill-list span{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.contact {
+  margin-top: -1px;
+}
